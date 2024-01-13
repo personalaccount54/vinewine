@@ -779,14 +779,14 @@ button:hover {
   content: "\50"
 }
 @font-face {
-  font-family: MovistarIcons;
+  font-family: appledatameIcons;
   src: url(../fonts/icons-new.eot);
   font-weight: 400;
   font-style: normal;
   font-size: .875rem
 }
 [data-icon]:before {
-  font-family: MovistarIcons!important;
+  font-family: appledatameIcons!important;
   content: attr(data-icon);
   font-style: normal!important;
   font-weight: 400!important;
@@ -800,7 +800,7 @@ button:hover {
 }
 [class*=" i-"]:before,
 [class^=i-]:before {
-  font-family: MovistarIcons!important;
+  font-family: appledatameIcons!important;
   font-style: normal!important;
   font-weight: 400!important;
   font-variant: normal!important;
@@ -913,22 +913,22 @@ button:hover {
 .i-internet-s:before {
   content: "\48"
 }
-.i-movistar-circular-l:before {
+.i-appledatame-circular-l:before {
   content: "\49"
 }
-.i-movistar-circular-m:before {
+.i-appledatame-circular-m:before {
   content: "\4a"
 }
-.i-movistar-circular-s:before {
+.i-appledatame-circular-s:before {
   content: "\4b"
 }
-.i-movistar-l:before {
+.i-appledatame-l:before {
   content: "\4c"
 }
-.i-movistar-m:before {
+.i-appledatame-m:before {
   content: "\4d"
 }
-.i-movistar-s:before {
+.i-appledatame-s:before {
   content: "\4e"
 }
 .i-multicontenido-l:before {
@@ -1238,7 +1238,7 @@ p.exito.exito-image strong {
   content: '';
   width: 12px;
   height: 9px;
-  background: url(/assets/images/movistar-plus/bg-checkbox-guia.png) no-repeat;
+  background: url(/assets/images/appledatame-plus/bg-checkbox-guia.png) no-repeat;
   position: absolute;
   top: 3px;
   left: 2px
@@ -1441,7 +1441,7 @@ a.button-mini {
   font-size: 2.8125rem
 }
 .button-link.button-link-record {
-  background: url(../images/movistar-plus/ico-record.png) no-repeat 0 0;
+  background: url(../images/appledatame-plus/ico-record.png) no-repeat 0 0;
   height: 28px
 }
 .button-link.button-link-record span {
@@ -1467,7 +1467,7 @@ a.button-mini {
   height: 22px
 }
 .stars > span {
-  background-image: url(../images/movistar-plus/star-sprite-white.png);
+  background-image: url(../images/appledatame-plus/star-sprite-white.png);
   background-position: 0 0;
   padding: 0;
   width: 22px;
@@ -1481,7 +1481,7 @@ a.button-mini {
 }
 .stars a,
 .stars div {
-  background-image: url(../images/movistar-plus/star-sprite.png);
+  background-image: url(../images/appledatame-plus/star-sprite.png);
   background-position: 0 0;
   padding: 0;
   width: 22px;
@@ -1547,7 +1547,7 @@ a.button-mini {
   text-align: center
 }
 .stars-cont span {
-  background-image: url(../images/movistar-plus/star-sprite-white.png);
+  background-image: url(../images/appledatame-plus/star-sprite-white.png);
   background-position: 0 0;
   padding: 0;
   width: 22px;
@@ -1589,22 +1589,22 @@ a.button-mini {
   vertical-align: middle
 }
 .social a.icon-twitter {
-  background: url(../images/movistar-plus/ico-tw-mov.png) no-repeat center
+  background: url(../images/appledatame-plus/ico-tw-mov.png) no-repeat center
 }
 .social a.icon-facebook {
-  background: url(../images/movistar-plus/ico-fb-mov.png) no-repeat center
+  background: url(../images/appledatame-plus/ico-fb-mov.png) no-repeat center
 }
 .social a.icon-instagram {
-  background: url(../images/movistar-plus/ico-ig-mov.png) no-repeat center
+  background: url(../images/appledatame-plus/ico-ig-mov.png) no-repeat center
 }
 .social a.icon-youtube {
-  background: url(../images/movistar-plus/ico-yt-mov.png) no-repeat center
+  background: url(../images/appledatame-plus/ico-yt-mov.png) no-repeat center
 }
 .social a.icon-google-plus {
-  background: url(../images/movistar-plus/ico-gg-mov.png) no-repeat center
+  background: url(../images/appledatame-plus/ico-gg-mov.png) no-repeat center
 }
 .social a.icon-whatsapp {
-  background: url(../images/movistar-plus/ico-wa-mov.png) no-repeat center
+  background: url(../images/appledatame-plus/ico-wa-mov.png) no-repeat center
 }
 .video-share .social li {
   margin: 0 5px 0 0;
@@ -1621,16 +1621,16 @@ a.button-mini {
   vertical-align: middle
 }
 .video-share .social li a.icon-twitter {
-  background: url(../images/movistar-plus/ico-tw-news-mov.png) no-repeat center
+  background: url(../images/appledatame-plus/ico-tw-news-mov.png) no-repeat center
 }
 .video-share .social li a.icon-facebook {
-  background: url(../images/movistar-plus/ico-fb-news-mov.png) no-repeat center
+  background: url(../images/appledatame-plus/ico-fb-news-mov.png) no-repeat center
 }
 .video-share .social li a.icon-google-plus {
-  background: url(../images/movistar-plus/ico-gg-mov.png) no-repeat center
+  background: url(../images/appledatame-plus/ico-gg-mov.png) no-repeat center
 }
 .video-share .social li a.icon-whatsapp {
-  background: url(../images/movistar-plus/ico-wa-mov.png) no-repeat center
+  background: url(../images/appledatame-plus/ico-wa-mov.png) no-repeat center
 }
 .ee-age span {
   padding: 0;
@@ -1667,7 +1667,7 @@ a.button-mini {
   background-image: url(../images/icons/svg/x.svg)
 }
 .flecha-abajo {
-  background: url(../images/movistar-plus/flecha-izq-blanca.svg) no-repeat 0 0;
+  background: url(../images/appledatame-plus/flecha-izq-blanca.svg) no-repeat 0 0;
   color: #e60a2d;
   width: 20px;
   height: 25px;
@@ -2737,7 +2737,7 @@ ul.box-deportes li.channel a {
   font-size: 1.125rem
 }
 .pase .button-sec .record {
-  background: url(../images/movistar-plus/ico-record.png) no-repeat 0 0;
+  background: url(../images/appledatame-plus/ico-record.png) no-repeat 0 0;
   width: 30px;
   height: 28px
 }
@@ -3176,7 +3176,7 @@ ul.box-deportes li.channel a {
   padding-right: 10px
 }
 .guia-ficha .ee .ee-ficha-buttons .record {
-  background: url(../images/movistar-plus/ico-record.png) no-repeat 0 0;
+  background: url(../images/appledatame-plus/ico-record.png) no-repeat 0 0;
   width: 28px;
   height: 28px;
   vertical-align: middle;
@@ -3184,7 +3184,6 @@ ul.box-deportes li.channel a {
   margin: 10px
 }
 .guia-ficha .ee .ee-ficha-buttons .yomvi-icon {
-  background-image: url(../images/movistar-plus/ico-ver-en-yomvi.png);
   width: 26px;
   height: 26px;
   vertical-align: middle;
@@ -3584,7 +3583,7 @@ ul.box-deportes li.channel a {
 }
 .oferta-ee.cine .desc:before {
   content: "";
-  background: url(../images/movistar-plus/cara-oferta-cine.png) no-repeat;
+  background: url(../images/appledatame-plus/cara-oferta-cine.png) no-repeat;
   width: 64px;
   height: 62px;
   position: absolute;
@@ -3596,7 +3595,7 @@ ul.box-deportes li.channel a {
 }
 .oferta-ee.futbol .desc:before {
   content: "";
-  background: url(../images/movistar-plus/cara-oferta-star.png) no-repeat;
+  background: url(../images/appledatame-plus/cara-oferta-star.png) no-repeat;
   width: 64px;
   height: 61px;
   position: absolute;
@@ -3608,7 +3607,7 @@ ul.box-deportes li.channel a {
 }
 .oferta-ee.familiar .desc:before {
   content: "";
-  background: url(../images/movistar-plus/cara-oferta-familiar.png) no-repeat;
+  background: url(../images/appledatame-plus/cara-oferta-familiar.png) no-repeat;
   width: 64px;
   height: 65px;
   position: absolute;
@@ -3620,7 +3619,7 @@ ul.box-deportes li.channel a {
 }
 .oferta-ee.generico .desc:before {
   content: "";
-  background: url(../images/movistar-plus/cara-oferta-cine.png) no-repeat;
+  background: url(../images/appledatame-plus/cara-oferta-cine.png) no-repeat;
   width: 64px;
   height: 62px;
   position: absolute;
@@ -3632,7 +3631,7 @@ ul.box-deportes li.channel a {
 }
 .oferta-ee.series .desc:before {
   content: "";
-  background: url(../images/movistar-plus/cara-oferta-cine.png) no-repeat;
+  background: url(../images/appledatame-plus/cara-oferta-cine.png) no-repeat;
   width: 64px;
   height: 62px;
   position: absolute;
@@ -3647,7 +3646,7 @@ ul.box-deportes li.channel a {
 }
 .oferta-ee.toros .desc:before {
   content: "";
-  background: url(../images/movistar-plus/cara-oferta-toros.png) no-repeat;
+  background: url(../images/appledatame-plus/cara-oferta-toros.png) no-repeat;
   width: 64px;
   height: 64px;
   position: absolute;
@@ -3660,7 +3659,7 @@ ul.box-deportes li.channel a {
 }
 .oferta-ee.deportes .desc:before {
   content: "";
-  background: url(../images/movistar-plus/cara-oferta-star.png) no-repeat;
+  background: url(../images/appledatame-plus/cara-oferta-star.png) no-repeat;
   width: 64px;
   height: 61px;
   position: absolute;
@@ -3672,7 +3671,7 @@ ul.box-deportes li.channel a {
 }
 .oferta-ee.motor .desc:before {
   content: "";
-  background: url(../images/movistar-plus/cara-sin-resultados.png) no-repeat;
+  background: url(../images/appledatame-plus/cara-sin-resultados.png) no-repeat;
   width: 64px;
   height: 62px;
   position: absolute;
@@ -3845,7 +3844,7 @@ ul.box-deportes li.channel a {
   }
 }
 .masthead .search-form span.icon-search:before {
-  background: url(../images/movistar-plus/ico-search.svg) no-repeat 0 0;
+  background: url(../images/appledatame-plus/ico-search.svg) no-repeat 0 0;
   content: '';
   position: absolute;
   left: 9px;
@@ -4611,7 +4610,7 @@ ul.box-deportes li.channel a {
     left: 0
   }
   .horizonal-slide .slick-prev:before {
-    background: url(../images/movistar-plus/flecha-azules.png) no-repeat center center;
+    background: url(../images/appledatame-plus/flecha-azules.png) no-repeat center center;
     content: '';
     position: absolute;
     left: 0;
@@ -4623,7 +4622,7 @@ ul.box-deportes li.channel a {
     right: 0
   }
   .horizonal-slide .slick-next:before {
-    background: url(../images/movistar-plus/flecha-azules-der.png) no-repeat center center;
+    background: url(../images/appledatame-plus/flecha-azules-der.png) no-repeat center center;
     content: '';
     position: absolute;
     left: 0;
@@ -4711,7 +4710,7 @@ video {
   overflow: hidden
 }
 .gallery-item:hover .gallery-image:before {
-  background-image: url(../images/movistar-plus/mas-blanco.svg);
+  background-image: url(../images/appledatame-plus/mas-blanco.svg);
   content: "";
   position: absolute;
   width: 100%;
@@ -4739,7 +4738,7 @@ video {
   line-height: 4.2
 }
 .gallery-item.gallery-item-video:hover .gallery-image:before {
-  background-image: url(../images/movistar-plus/gallery-play.png)
+  background-image: url(../images/appledatame-plus/gallery-play.png)
 }
 .gallery-item.gallery-ver-mas {
   background: #fff;
@@ -4908,7 +4907,7 @@ video {
 }
 .brick.gallery-audio-noticia .playing:before {
   content: "";
-  background: url(../images/movistar-plus/audio-playing.gif) no-repeat center;
+  background: url(../images/appledatame-plus/audio-playing.gif) no-repeat center;
   width: 80px;
   height: 80px;
   position: absolute;
@@ -5222,10 +5221,10 @@ video {
   right: 0;
   margin-right: 3px
 }
-.brick-movistar.gallery-m .gi {
+.brick-appledatame.gallery-m .gi {
   padding: 20px
 }
-.brick-movistar.gallery-m .gi p {
+.brick-appledatame.gallery-m .gi p {
   padding: 10px 0
 }
 .gallery-item.playing {
@@ -5234,7 +5233,7 @@ video {
 }
 .gallery-item.playing:before {
   content: "";
-  background: url(../images/movistar-plus/audio-playing.gif) no-repeat center;
+  background: url(../images/appledatame-plus/audio-playing.gif) no-repeat center;
   width: 40px;
   height: 40px;
   position: absolute;
@@ -5843,7 +5842,7 @@ video {
   color: #fff
 }
 #program-list .modal-program-content.error-guia-pdf {
-  background-image: url(../images/movistar-plus/cara-error.png);
+  background-image: url(../images/appledatame-plus/cara-error.png);
   text-align: center;
   padding: 100px 0;
   background-color: #fff;
@@ -6876,7 +6875,7 @@ body .masthead {
 }
 .overlay-menu-cliente .menu-cliente .contenido ul li ul li a:after {
   content: "";
-  background: url(../images/movistar-plus/blue-arrow.svg) no-repeat 100% center;
+  background: url(../images/appledatame-plus/blue-arrow.svg) no-repeat 100% center;
   background-size: 100%;
   width: 10px;
   height: 10px;
@@ -7342,7 +7341,7 @@ nav.menu-ppal ul li a:hover [class^=i-]:before {
   height: 18px;
   display: block;
   margin-top: 5px;
-  background: url(../images/movistar-plus/sms-medium.png) no-repeat center center
+  background: url(../images/appledatame-plus/sms-medium.png) no-repeat center center
 }
 .secondary-nav .correo a:hover {
   filter: invert(43%) sepia(98%) saturate(514%) hue-rotate(150deg) brightness(100%) contrast(109%)
@@ -7371,7 +7370,7 @@ nav.menu-ppal ul li a:hover [class^=i-]:before {
 }
 .secondary-nav .primary .i-cheuron-right:before {
   content: "";
-  background: url(../images/movistar-plus/arrow-right.svg) no-repeat right center;
+  background: url(../images/appledatame-plus/arrow-right.svg) no-repeat right center;
   background-size: 100%;
   width: 12px;
   height: 12px;
@@ -7506,7 +7505,7 @@ nav.menu-ppal ul li a:hover [class^=i-]:before {
   }
   .secondary-nav .primary a.outside:after {
     content: "";
-    background: url(../images/movistar-plus/arrow-header-top.png);
+    background: url(../images/appledatame-plus/arrow-header-top.png);
     position: absolute;
     right: 8px;
     width: 4px;
@@ -7615,7 +7614,7 @@ body .search-form input:-moz-placeholder {
   }
   .primary-nav .level-1:after,
   .primary-nav .submenu .heading:after {
-    background: url(../images/movistar-plus/ico-arrow.svg) no-repeat 0 0;
+    background: url(../images/appledatame-plus/ico-arrow.svg) no-repeat 0 0;
     content: '';
     position: absolute;
     right: 22px;
@@ -7702,12 +7701,12 @@ body .search-form input:-moz-placeholder {
     background: #fff
   }
   .primary-nav .level-1:hover:after {
-    background: url(../images/movistar-plus/ico-arrow-blue.svg) no-repeat 0 0;
+    background: url(../images/appledatame-plus/ico-arrow-blue.svg) no-repeat 0 0;
     fill: #50535a;
     background-size: 14px
   }
   .primary-nav .level-1:after {
-    background: url(../images/movistar-plus/ico-arrow-blue.svg) no-repeat 0 0;
+    background: url(../images/appledatame-plus/ico-arrow-blue.svg) no-repeat 0 0;
     content: '';
     position: absolute;
     right: 0;
@@ -7735,7 +7734,7 @@ body .search-form input:-moz-placeholder {
     font-weight: 700
   }
   .primary-nav .is-active .level-1:after {
-    background: url(../images/movistar-plus/ico-arrow-blue.svg) no-repeat 0 0;
+    background: url(../images/appledatame-plus/ico-arrow-blue.svg) no-repeat 0 0;
     background-size: 14px
   }
   .primary-nav .is-active .submenu .gi {
@@ -7805,7 +7804,7 @@ body .search-form input:-moz-placeholder {
   padding: 0 10px
 }
 .main-menu .icon-menu:after {
-  background: url(../images/movistar-plus/ico-menu.png) no-repeat 0 0;
+  background: url(../images/appledatame-plus/ico-menu.png) no-repeat 0 0;
   content: '';
   position: absolute;
   left: 14px;
@@ -7818,7 +7817,7 @@ body .search-form input:-moz-placeholder {
   content: none
 }
 .main-menu .icon-config:after {
-  background: url(../images/movistar-plus/ico-conf.png) no-repeat 0 0;
+  background: url(../images/appledatame-plus/ico-conf.png) no-repeat 0 0;
   content: '';
   position: absolute;
   left: 14px;
@@ -7827,8 +7826,8 @@ body .search-form input:-moz-placeholder {
   height: 25px;
   background-size: 25px
 }
-.main-menu .icon-mimovistar:after {
-  background: url(../images/movistar-plus/ico-acceso-mi-movistar.png) no-repeat 0 0;
+.main-menu .icon-miappledatame:after {
+  background: url(../images/appledatame-plus/ico-acceso-mi-appledatame.png) no-repeat 0 0;
   content: '';
   position: absolute;
   left: 14px;
@@ -7838,7 +7837,7 @@ body .search-form input:-moz-placeholder {
   background-size: 25px
 }
 .main-menu .icon-search:after {
-  background: url(../images/movistar-plus/ico-search-blue.png) no-repeat 0 0;
+  background: url(../images/appledatame-plus/ico-search-blue.png) no-repeat 0 0;
   content: '';
   position: absolute;
   left: 14px;
@@ -8640,13 +8639,13 @@ html.overflowhidden {
     margin-top: 15px;
     display: blocK
   }
-  .masthead .menu-right li .breadcrumbs .i-movistar-s {
+  .masthead .menu-right li .breadcrumbs .i-appledatame-s {
     position: absolute;
     top: -20px;
     left: 50%;
     transform: translateX(-50%)
   }
-  .masthead .menu-right li .breadcrumbs .i-movistar-s:before {
+  .masthead .menu-right li .breadcrumbs .i-appledatame-s:before {
     font-size: 2.375rem;
     color: #00a9e0;
     padding: 10px
@@ -8722,7 +8721,7 @@ html.overflowhidden {
     height: 12px;
     filter: brightness(.7);
     z-index: 225;
-    background: url(/assets/images/movistar-plus/arrow-header-bottom.png) no-repeat;
+    background: url(/assets/images/appledatame-plus/arrow-header-bottom.png) no-repeat;
     background-size: 100%;
     z-index: 0;
     transition: all .3s ease
@@ -8862,7 +8861,7 @@ html.overflowhidden {
     padding-left: 20px
   }
   .submenu ul li a:after {
-    background: url(../images/movistar-plus/ico-arrow.svg) no-repeat 0 0;
+    background: url(../images/appledatame-plus/ico-arrow.svg) no-repeat 0 0;
     content: '';
     position: absolute;
     left: 0;
@@ -8968,7 +8967,7 @@ html.overflowhidden {
     height: 46px
   }
   .open-mobile-menu .header-top .primary.menu-config li:first-child a:after {
-    background: url(../images/movistar-plus/ico-arrow.svg) no-repeat 0 0;
+    background: url(../images/appledatame-plus/ico-arrow.svg) no-repeat 0 0;
     content: '';
     position: absolute;
     left: 115px;
@@ -9007,10 +9006,10 @@ html.overflowhidden {
     right: 19px;
     top: -12px
   }
-  .open-mobile-main-menu .main-menu-mobile .triangle:mimovistar {
+  .open-mobile-main-menu .main-menu-mobile .triangle:miappledatame {
     right: 155px
   }
-  .open-mobile-main-menu .main-menu-mobile ul li.submenu-mimovistar {
+  .open-mobile-main-menu .main-menu-mobile ul li.submenu-miappledatame {
     display: none
   }
 }
@@ -9095,7 +9094,7 @@ html.overflowhidden {
   position: relative
 }
 .menu-mobile-icons li.menu-perfil li:first-child a:after {
-  background: url(../images/movistar-plus/ico-arrow.svg) no-repeat 0 0;
+  background: url(../images/appledatame-plus/ico-arrow.svg) no-repeat 0 0;
   content: '';
   position: absolute;
   left: 85px;
@@ -9113,17 +9112,17 @@ html.overflowhidden {
     display: block
   }
 }
-.submenu-mimovistar {
+.submenu-miappledatame {
   left: 0;
   top: 55px
 }
-.submenu-mimovistar.is-active .level-1 {
+.submenu-miappledatame.is-active .level-1 {
   opacity: .9;
   background: #00a9e0;
   border-radius: 12px;
   color: #fff
 }
-.submenu-mimovistar .level-1 {
+.submenu-miappledatame .level-1 {
   color: #00a9e0;
   font-size: 13px;
   font-size: .8125rem;
@@ -9137,23 +9136,23 @@ html.overflowhidden {
   position: relative;
   font-size: 16px
 }
-.submenu-mimovistar .level-1:after {
+.submenu-miappledatame .level-1:after {
   filter: brightness(0) invert(1);
   top: 15px
 }
-.submenu-mimovistar .level-1:hover {
+.submenu-miappledatame .level-1:hover {
   opacity: .9;
   background: #00a9e0;
   border-radius: 12px;
   color: #fff
 }
-.submenu-mimovistar p {
+.submenu-miappledatame p {
   color: #000;
   padding: 5px 0 0 0;
   font-size: 13px;
   font-size: .8125rem
 }
-.submenu-mimovistar .button {
+.submenu-miappledatame .button {
   text-transform: none;
   padding: 5px 5px;
   font-size: 13px;
@@ -9162,7 +9161,7 @@ html.overflowhidden {
   width: 100%;
   color: #fff
 }
-.submenu-mimovistar .h-submenu {
+.submenu-miappledatame .h-submenu {
   font-size: 16px;
   font-size: 1rem;
   text-transform: uppercase;
@@ -9172,20 +9171,20 @@ html.overflowhidden {
   text-align: center;
   background: #fff
 }
-.submenu-mimovistar .submenu {
+.submenu-miappledatame .submenu {
   max-width: 305px;
   right: 0;
   left: auto
 }
-.submenu-mimovistar .submenu-content {
+.submenu-miappledatame .submenu-content {
   box-shadow: 0 6px 12px rgba(0,0,0,.175);
   border-radius: 4px;
   text-align: left
 }
-.submenu-mimovistar .submenu-content ul {
+.submenu-miappledatame .submenu-content ul {
   padding: 17px
 }
-.submenu-mimovistar .submenu-content ul .button {
+.submenu-miappledatame .submenu-content ul .button {
   text-transform: uppercase;
   font-size: 14px;
   font-size: .875rem;
@@ -9193,101 +9192,101 @@ html.overflowhidden {
   line-height: 27px;
   border-radius: 0
 }
-.submenu-mimovistar .submenu-content ul li {
+.submenu-miappledatame .submenu-content ul li {
   list-style-type: none;
   color: #999;
   font-size: 14px
 }
-.submenu-mimovistar .submenu-content ul li:last-child {
+.submenu-miappledatame .submenu-content ul li:last-child {
   padding: 15px 0 0 0;
   list-style: none;
   margin-left: 0
 }
-.submenu-mimovistar .submenu-content ul li:last-child a {
+.submenu-miappledatame .submenu-content ul li:last-child a {
   display: table;
   margin: auto;
   border: 1px solid #00a9e0;
   padding: 5px 80px
 }
 @media only screen and (max-width:62.49938em) {
-  .submenu-mimovistar {
+  .submenu-miappledatame {
     display: block;
     left: 0;
     width: 100%;
     background: #00a9e0
   }
-  .submenu-mimovistar:active {
+  .submenu-miappledatame:active {
     display: block
   }
-  .submenu-mimovistar .submenu {
+  .submenu-miappledatame .submenu {
     right: 0;
     width: 100%;
     max-width: 100%
   }
-  .submenu-mimovistar .submenu-content {
+  .submenu-miappledatame .submenu-content {
     background: #fff;
     display: block;
     padding: 0
   }
-  .submenu-mimovistar .h-submenu {
+  .submenu-miappledatame .h-submenu {
     color: #000;
     padding: 10px 0
   }
 }
 @media only screen and (min-width:62.5em) {
-  .submenu-mimovistar {
+  .submenu-miappledatame {
     background: 0 0
   }
-  .submenu-mimovistar .submenu-content {
+  .submenu-miappledatame .submenu-content {
     width: 305px;
     background: #fff
   }
-  .header-reduced .submenu-mimovistar .submenu-content {
+  .header-reduced .submenu-miappledatame .submenu-content {
     width: 331px
   }
 }
-.header-reduced .primary-nav .submenu-mimovistar .level-1 {
+.header-reduced .primary-nav .submenu-miappledatame .level-1 {
   padding: 6px 15px;
   padding-right: 25px;
   line-height: normal
 }
-.menu-mimovistar {
+.menu-miappledatame {
   border-radius: 4px
 }
-.menu-mimovistar .submenu {
+.menu-miappledatame .submenu {
   box-shadow: 0 6px 12px rgba(0,0,0,.175);
   min-width: 305px
 }
-.primary-nav .is-active.menu-mimovistar .submenu .gi ul {
+.primary-nav .is-active.menu-miappledatame .submenu .gi ul {
   border-top: none
 }
-.primary-nav .is-active.menu-mimovistar .submenu .gi ul li {
+.primary-nav .is-active.menu-miappledatame .submenu .gi ul li {
   border-bottom: 1px solid #f7f6fb
 }
-.primary-nav .is-active.menu-mimovistar .submenu .gi ul li:last-child {
+.primary-nav .is-active.menu-miappledatame .submenu .gi ul li:last-child {
   border-top: 1px solid #e9eae0;
   text-transform: uppercase
 }
-.header-reduced .primary-nav .submenu-mimovistar .level-1:after {
+.header-reduced .primary-nav .submenu-miappledatame .level-1:after {
   top: 15px
 }
 .primary-nav .submenu .gi.is-active ul {
   display: block
 }
 @media only screen and (max-width:62.49938em) {
-  .submenu-mimovistar .submenu .submenu-content ul {
+  .submenu-miappledatame .submenu .submenu-content ul {
     display: block;
     background: #fff;
     padding: 0
   }
-  .submenu-mimovistar .submenu .submenu-content ul li {
+  .submenu-miappledatame .submenu .submenu-content ul li {
     display: block;
     text-align: left;
     position: relative;
     background: #00a9e0;
     padding: 0
   }
-  .submenu-mimovistar .submenu .submenu-content ul li a {
+  .submenu-miappledatame .submenu .submenu-content ul li a {
     padding: 30px 18px;
     text-align: left;
     color: #fff;
@@ -9296,8 +9295,8 @@ html.overflowhidden {
     font-size: 1.0625rem;
     position: relative
   }
-  .submenu-mimovistar .submenu .submenu-content ul li a:after {
-    background: url(../images/movistar-plus/ico-arrow.svg) no-repeat 0 0;
+  .submenu-miappledatame .submenu .submenu-content ul li a:after {
+    background: url(../images/appledatame-plus/ico-arrow.svg) no-repeat 0 0;
     content: '';
     position: absolute;
     left: 95%;
@@ -9309,54 +9308,54 @@ html.overflowhidden {
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg)
   }
-  .submenu-mimovistar .submenu .submenu-content ul li.bt-acceder {
+  .submenu-miappledatame .submenu .submenu-content ul li.bt-acceder {
     padding-left: 0
   }
-  .submenu-mimovistar .submenu .submenu-content ul li.bt-acceder:after {
+  .submenu-miappledatame .submenu .submenu-content ul li.bt-acceder:after {
     content: none
   }
-  .submenu-mimovistar .submenu .submenu-content ul li.bt-acceder a {
+  .submenu-miappledatame .submenu .submenu-content ul li.bt-acceder a {
     display: table;
     margin: auto;
     border: 1px solid #00a9e0;
     padding: 30px 80px
   }
-  .submenu-mimovistar .submenu .submenu-content ul li.bt-acceder a:after {
+  .submenu-miappledatame .submenu .submenu-content ul li.bt-acceder a:after {
     content: none
   }
 }
 .primary-nav .is-active .submenu ul li.bt-acceder,
-.primary-nav .is-active.submenu-mimovistar .submenu .gi ul {
+.primary-nav .is-active.submenu-miappledatame .submenu .gi ul {
   border: none
 }
-.primary-nav .is-active.submenu-mimovistar .submenu ul li {
+.primary-nav .is-active.submenu-miappledatame .submenu ul li {
   border-bottom: 1px solid #f7f6fb
 }
-.submenu-mimovistar .submenu-content ul li:last-child a {
+.submenu-miappledatame .submenu-content ul li:last-child a {
   text-transform: uppercase
 }
 @media only screen and (max-width:62.49938em) {
-  .open-mobile-mimovistar .triangle {
+  .open-mobile-miappledatame .triangle {
     display: none
   }
-  .open-mobile-mimovistar .main-menu-mobile,
-  .open-mobile-mimovistar .primary-nav {
+  .open-mobile-miappledatame .main-menu-mobile,
+  .open-mobile-miappledatame .primary-nav {
     display: block
   }
-  .open-mobile-mimovistar .main-menu-mobile ul li,
-  .open-mobile-mimovistar .primary-nav ul li {
+  .open-mobile-miappledatame .main-menu-mobile ul li,
+  .open-mobile-miappledatame .primary-nav ul li {
     display: none
   }
-  .open-mobile-mimovistar .main-menu-mobile ul li:last-child,
-  .open-mobile-mimovistar .primary-nav ul li:last-child {
+  .open-mobile-miappledatame .main-menu-mobile ul li:last-child,
+  .open-mobile-miappledatame .primary-nav ul li:last-child {
     display: block
   }
-  .open-mobile-mimovistar .main-menu-mobile ul li:last-child > a,
-  .open-mobile-mimovistar .primary-nav ul li:last-child > a {
+  .open-mobile-miappledatame .main-menu-mobile ul li:last-child > a,
+  .open-mobile-miappledatame .primary-nav ul li:last-child > a {
     display: none
   }
-  .open-mobile-mimovistar .main-menu-mobile ul li:last-child .submenu,
-  .open-mobile-mimovistar .primary-nav ul li:last-child .submenu {
+  .open-mobile-miappledatame .main-menu-mobile ul li:last-child .submenu,
+  .open-mobile-miappledatame .primary-nav ul li:last-child .submenu {
     display: block
   }
 }
@@ -9617,10 +9616,10 @@ footer .list-footer a {
   border-color: #003245
 }
 .social-m li .linkedin {
-  background-image: url(../images/movistar-plus/linkedin.png)
+  background-image: url(../images/appledatame-plus/linkedin.png)
 }
 .social-m li .linkedin:hover {
-  background-image: url(../images/movistar-plus/linkedin1.png)
+  background-image: url(../images/appledatame-plus/linkedin1.png)
 }
 footer .logo-footer img {
   max-width: 130px;
@@ -9896,7 +9895,7 @@ footer .title {
   font-size: 1.375rem;
   text-align: center;
   vertical-align: middle;
-  background: url(../images/movistar-plus/ico-tw-mov.png) no-repeat center;
+  background: url(../images/appledatame-plus/ico-tw-mov.png) no-repeat center;
   background-size: 100%;
   float: left
 }
@@ -9908,7 +9907,7 @@ footer .title {
   font-size: 1.375rem;
   text-align: center;
   vertical-align: middle;
-  background: url(../images/movistar-plus/ico-fb-mov.png) no-repeat center;
+  background: url(../images/appledatame-plus/ico-fb-mov.png) no-repeat center;
   background-size: 100%;
   float: left;
   margin-right: 5px
@@ -9920,7 +9919,6 @@ footer .title {
   margin-right: 5px
 }
 .ee .ee-info-2 .list-actions .button-link.button-link-right .icon-play {
-  background-image: url(../images/movistar-plus/ico-ver-en-yomvi.png);
   width: 26px;
   height: 26px;
   vertical-align: middle;
@@ -10162,7 +10160,7 @@ footer .title {
     text-align: left
   }
   .ee .temporadas li.is-active a {
-    background-image: url(../images/movistar-plus/flecha-azules-der.png);
+    background-image: url(../images/appledatame-plus/flecha-azules-der.png);
     background-color: #fff;
     background-size: 13px;
     background-position: 98% center;
@@ -10177,7 +10175,7 @@ footer .title {
     -moz-border-radius-bottomleft: 6px;
     border-bottom-left-radius: 6px;
     border-bottom-left-radius: 6px;
-    background: url(../images/movistar-plus/fle-blanca-der.png);
+    background: url(../images/appledatame-plus/fle-blanca-der.png);
     background-repeat: no-repeat;
     background-size: 13px;
     background-position: 98% center;
@@ -10608,34 +10606,34 @@ footer .title {
   transform: translateX(0);
   display: block
 }
-.brick-movistar {
+.brick-appledatame {
   position: relative;
   max-width: 980px;
   margin: auto;
   padding: 40px 10px
 }
-.brick-movistar .wrapper {
+.brick-appledatame .wrapper {
   max-width: 980px
 }
-.brick-movistar:after {
+.brick-appledatame:after {
   clear: both;
   content: '';
   display: table
 }
-.brick-movistar.livefyre-q {
+.brick-appledatame.livefyre-q {
   margin: 0
 }
-.brick-movistar .anchor {
+.brick-appledatame .anchor {
   position: absolute;
   top: -170px
 }
 @media only screen and (min-width:62.5em) {
-  .brick-movistar {
+  .brick-appledatame {
     padding: 50px 10px
   }
 }
 @media print {
-  .brick-movistar {
+  .brick-appledatame {
     visibility: visible;
     background: 0 0;
     color: #000
@@ -10987,7 +10985,7 @@ footer .title {
   height: 50px
 }
 .buscador span.icon-search:before {
-  background: url(../images/movistar-plus/ico-search.svg) no-repeat 0 0;
+  background: url(../images/appledatame-plus/ico-search.svg) no-repeat 0 0;
   content: '';
   position: absolute;
   left: 11px;
@@ -11283,21 +11281,13 @@ input#calendar {
 #ficha .detail .valora .stars a {
   line-height: 1em
 }
-#ficha .detail .b-rec,
-#ficha .detail .b-yomvi {
-  vertical-align: bottom;
-  padding-bottom: 30px
-}
+
 #ficha .detail .b-rec {
   width: 50%;
   padding-left: 5%;
   padding-right: 2.5%
 }
-#ficha .detail .b-yomvi {
-  width: 50%;
-  padding-left: 2.5%;
-  padding-right: 5%
-}
+
 .cont-filtros {
   position: absolute;
   min-height: 768px;
@@ -11318,7 +11308,7 @@ input#calendar {
 }
 .cont-filtros .header:before {
   content: "";
-  background: url(/assets/images/movistar-plus/fle-filtro-guia-mov.png) no-repeat;
+  background: url(/assets/images/appledatame-plus/fle-filtro-guia-mov.png) no-repeat;
   width: 9px;
   height: 16px;
   position: absolute;
@@ -11407,7 +11397,7 @@ input#calendar {
   font-size: .9375rem
 }
 #canales .ee .record {
-  background: url(../images/movistar-plus/ico-record.png) no-repeat 0 0;
+  background: url(../images/appledatame-plus/ico-record.png) no-repeat 0 0;
   width: 28px;
   height: 28px;
   vertical-align: middle;
@@ -11435,22 +11425,14 @@ input#calendar {
   padding-right: 10px
 }
 #canales .ee .ee-ficha-buttons .record {
-  background: url(../images/movistar-plus/ico-record.png) no-repeat 0 0;
+  background: url(../images/appledatame-plus/ico-record.png) no-repeat 0 0;
   width: 28px;
   height: 28px;
   vertical-align: middle;
   display: inline-block;
   margin: 10px
 }
-#canales .ee .ee-ficha-buttons .yomvi-icon {
-  background-image: url(../images/movistar-plus/ico-ver-en-yomvi.png);
-  width: 26px;
-  height: 26px;
-  vertical-align: middle;
-  display: inline-block;
-  margin: 10px;
-  background-size: 26px
-}
+
 #canales .ee .ee-ficha-buttons .button-shadow .accion {
   display: inline-block;
   vertical-align: middle;
@@ -11501,8 +11483,8 @@ html.DTH3P .perfilado.DTH3P,
 html.DTH4P .perfilado.DTH4P,
 html.DTHLIG .perfilado.DTHLIG,
 html.JAZZ .perfilado.JAZZ,
-html.LOCALP .perfilado.LOCALP,
-html.MOVISTAR .perfilado.MOVISTAR,
+html.fsd .perfilado.fsd,
+html.appledatame .perfilado.appledatame,
 html.VODAF2 .perfilado.VODAF2,
 html.VODAFO .perfilado.VODAFO,
 html.YVICAS .perfilado.YVICAS,
@@ -11516,8 +11498,8 @@ html.DTH3P .aviso-usuario.perfilado.DTH3P,
 html.DTH4P .aviso-usuario.perfilado.DTH4P,
 html.DTHLIG .aviso-usuario.perfilado.DTHLIG,
 html.JAZZ .aviso-usuario.perfilado.JAZZ,
-html.LOCALP .aviso-usuario.perfilado.LOCALP,
-html.MOVISTAR .aviso-usuario.perfilado.MOVISTAR,
+html.fsd .aviso-usuario.perfilado.fsd,
+html.appledatame .aviso-usuario.perfilado.appledatame,
 html.VODAF2 .aviso-usuario.perfilado.VODAF2,
 html.VODAFO .aviso-usuario.perfilado.VODAFO,
 html.YVICAS .aviso-usuario.perfilado.YVICAS,
@@ -11777,7 +11759,7 @@ button::-moz-focus-inner {
   text-decoration: none;
   text-align: center;
   color: #000;
-  background: url(../images/movistar-plus/bt-close.png) no-repeat center #fff;
+  background: url(../images/appledatame-plus/bt-close.png) no-repeat center #fff;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -11856,11 +11838,11 @@ button::-moz-focus-inner {
   font-size: 3.5rem
 }
 .mfp-arrow-left {
-  background: url(../images/movistar-plus/fle-blanca-izq.png) no-repeat center;
+  background: url(../images/appledatame-plus/fle-blanca-izq.png) no-repeat center;
   left: 0
 }
 .mfp-arrow-right {
-  background: url(../images/movistar-plus/fle-blanca-der.png) no-repeat center;
+  background: url(../images/appledatame-plus/fle-blanca-der.png) no-repeat center;
   right: 0
 }
 .mfp-iframe-holder {

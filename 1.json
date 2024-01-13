@@ -1,0 +1,40 @@
+{
+  "canales": [
+    {
+      "url": "go:S430",
+      "image": "https://i.imgur.com/DmYN5Yh.png"
+    },
+    {
+      "url": "go:S40",
+      "image": "https://i.imgur.com/KWcjb1g.png"
+    },
+    {
+      "url": "go:S220",
+      "image": "https://i.imgur.com/vhDTb6a.png"
+    },
+    {
+      "url": "go:S224",
+      "image": "https://i.imgur.com/fmEnFY4.png"
+    },
+    {
+      "url": "go:S723",
+      "image": "https://i.imgur.com/Odyvkjx.png"
+    },
+    {
+      "url": "go:S724",
+      "image": "https://i.imgur.com/CDyOWpJ.png"
+    },
+    {
+      "url": "go:S230",
+      "image": "https://i.imgur.com/dmgMDaF.png"
+    },
+    {
+      "url": "go:S225",
+      "image": "https://i.imgur.com/PDUuoF7.png"
+    },
+    {
+      "url": "go:S898",
+      "image": "https://i.imgur.com/Sf59L7L.png"
+    }
+  ]
+}
