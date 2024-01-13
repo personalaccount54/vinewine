@@ -1,0 +1,54 @@
+{
+  "canalesHTML": [
+    {
+      "url": "go:S123",
+      "image": "https://i.imgur.com/yzcvRbi.png"
+    },
+    {
+      "url": "go:S1883",
+      "image": "https://i.imgur.com/5xgqMEH.png"
+    },
+    {
+      "url": "go:S125",
+      "image": "https://i.imgur.com/uJXCv85.png"
+    },
+    {
+      "url": "go:126",
+      "image": "https://i.imgur.com/5jDIX87.png"
+    },
+    {
+      "url": "go:S748",
+      "image": "https://i.imgur.com/wiURRjI.png"
+    },
+    {
+      "url": "go:S124",
+      "image": "https://i.imgur.com/ObHTrhY.png"
+    },
+    {
+      "url": "go:126",
+      "image": "https://i.imgur.com/5jDIX87.png"
+    },
+    {
+      "url": "go:127",
+      "image": "https://i.imgur.com/w6tzmc4.png"
+    },
+    {
+      "url": "go:S177",
+      "image": "https://i.imgur.com/1Mo3yuH.png"
+    }
+  ],
+  "canalesMPlus": [
+    {
+      "url": "go:S743",
+      "image": "https://i.imgur.com/bVmDC4N.png"
+    },
+    {
+      "url": "go:S749",
+      "image": "https://i.imgur.com/wiURRjI.png"
+    },
+    {
+      "url": "go:S750",
+      "image": "https://i.imgur.com/O2kK0dO.png"
+    }
+  ]
+}
