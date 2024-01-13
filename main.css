@@ -446,7 +446,7 @@ html.js .hide {
 }
 .h-bg {
   position: relative;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   font-size: 34px;
   font-size: 2.125rem;
@@ -472,7 +472,7 @@ html.js .hide {
 }
 .h-alpha {
   position: relative;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   font-size: 20px;
   font-size: 1.25rem;
@@ -493,14 +493,14 @@ html.js .hide {
 }
 .h-gamma-mini {
   display: block;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 12px;
   font-size: .75rem;
   font-weight: 400
 }
 .h-zeta {
   display: block;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 13px;
   font-size: .8125rem;
   font-weight: 700;
@@ -509,7 +509,7 @@ html.js .hide {
 }
 .h-gamma {
   display: block;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 16px;
   font-size: 1rem;
   font-weight: 400
@@ -522,7 +522,7 @@ html.js .hide {
 }
 .h-mega {
   display: block;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 26px;
   font-size: 1.625rem;
   font-weight: 700
@@ -535,7 +535,7 @@ html.js .hide {
 }
 .h-beta {
   display: block;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 26px;
   font-size: 1.625rem;
   font-weight: 700
@@ -554,7 +554,7 @@ html.js .hide {
 }
 .h-delta {
   display: block;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 20px;
   font-size: 1.25rem;
   font-weight: 700
@@ -567,7 +567,7 @@ html.js .hide {
 }
 .h-epsilon {
   display: block;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 24px;
   font-size: 1.5rem;
   font-weight: 700
@@ -580,7 +580,7 @@ html.js .hide {
 }
 .h-epsilon-extra {
   display: block;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 55px;
   font-size: 3.4375rem;
   font-weight: 700
@@ -781,7 +781,6 @@ button:hover {
 @font-face {
   font-family: MovistarIcons;
   src: url(../fonts/icons-new.eot);
-  src: url(../fonts/icons-new.eot?#iefix) format("embedded-opentype"),url(../fonts/icons-new.woff) format("woff"),url(../fonts/icons-new.ttf) format("truetype"),url(../fonts/icons-new.svg#telefonica) format("svg");
   font-weight: 400;
   font-style: normal;
   font-size: .875rem
@@ -1019,7 +1018,7 @@ input[type=radio] {
 .field input,
 .field textarea {
   border: 2px solid #ccc;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 16px;
   font-size: 1rem;
   padding: 15px;
@@ -1102,7 +1101,7 @@ p.exito.exito-image strong {
   display: block;
   font-size: 32px;
   font-size: 2rem;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   margin: 10px 0 15px
 }
 @media only screen and (max-width:62.49938em) {
@@ -1298,7 +1297,7 @@ p.exito.exito-image strong {
   position: relative;
   border: 2px solid silver;
   background: #fff;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   cursor: pointer;
   font-size: 16px;
   font-size: 1rem;
@@ -1357,7 +1356,7 @@ p.exito.exito-image strong {
 .menu-shadow ul li a,
 a.button-mini {
   display: inline-block;
-  font-family: TelefonicaLight,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 400;
   text-align: center;
   line-height: 1;
@@ -1693,7 +1692,7 @@ a.button-mini {
   width: 0%;
   visibility: hidden;
   text-transform: uppercase;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   -o-transition: all .5s linear;
   -moz-transition: all .5s linear;
@@ -1773,7 +1772,7 @@ a.button-mini {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   text-align: center;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   font-size: 18px;
   font-size: 1.125rem;
@@ -2030,7 +2029,7 @@ p.exito:after {
 p.error,
 p.exito {
   font-weight: 700;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 25px;
   font-size: 1.5625rem;
   position: relative;
@@ -2097,7 +2096,7 @@ p.exito {
   font-size: 1rem
 }
 .spot .spot-content .heading {
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   padding-bottom: 10px;
   font-size: 24px;
   font-size: 1.5rem;
@@ -2221,7 +2220,7 @@ p.exito {
 }
 .cover > a.cover-titulo {
   color: #00334c;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   text-decoration: none;
   font-size: 16px;
   font-size: 1rem;
@@ -2264,7 +2263,7 @@ p.exito {
 .ee .cover:hover p.error,
 .ee .cover:hover p.exito {
   display: block;
-  font-family: Telefonica,Arial,sans-serif
+  font-family: Arial,sans-serif
 }
 .related .cover {
   width: auto
@@ -2282,7 +2281,7 @@ ul.box-deportes li.hour {
 }
 ul.box-deportes li.hour strong {
   text-align: center;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   font-size: 14px;
   font-size: .875rem
@@ -2295,7 +2294,7 @@ ul.box-deportes li.teams img {
 }
 ul.box-deportes li.teams .info {
   text-align: center;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   font-size: 24px;
   font-size: 1.5rem
@@ -2312,7 +2311,7 @@ ul.box-deportes li.teams .info img {
 }
 ul.box-deportes li.detail {
   width: 40%;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   padding-left: 2em
 }
 ul.box-deportes li.detail p.teams {
@@ -2616,7 +2615,7 @@ ul.box-deportes li.channel a {
   left: -30px
 }
 .navigation {
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   font-size: 13px;
   font-size: .8125rem;
@@ -2671,7 +2670,7 @@ ul.box-deportes li.channel a {
   line-height: 1.5em;
   font-size: 15px;
   font-size: .9375rem;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   display: inline-block;
   padding-right: 5px;
   margin-top: 5px
@@ -2713,7 +2712,7 @@ ul.box-deportes li.channel a {
   display: none
 }
 .pase .box-medium:first-child p {
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 19px;
   font-size: 1.1875rem;
   font-weight: 900;
@@ -2750,7 +2749,7 @@ ul.box-deportes li.channel a {
   color: #fff;
   font-size: 13px;
   font-size: .8125rem;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   line-height: 1.1em
 }
 .pase .pase-container p span {
@@ -2809,7 +2808,7 @@ ul.box-deportes li.channel a {
   background: #fff
 }
 .pase .pase-container-info p {
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   font-size: 23px;
   font-size: 1.4375rem;
@@ -2950,7 +2949,7 @@ ul.box-deportes li.channel a {
     height: 88px
   }
   .pase .box-large p {
-    font-family: Telefonica,Arial,sans-serif;
+    font-family: Arial,sans-serif;
     font-size: 19px;
     font-size: 1.1875rem;
     font-weight: 900;
@@ -3050,7 +3049,7 @@ ul.box-deportes li.channel a {
 .view-more {
   position: relative;
   display: block;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 18px;
   font-size: 1.125rem;
   font-weight: 700;
@@ -3168,7 +3167,7 @@ ul.box-deportes li.channel a {
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   color: #00385d;
   background: #fff;
@@ -3282,7 +3281,7 @@ ul.box-deportes li.channel a {
   padding: 5px;
   border-radius: 7px;
   min-height: 160px;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   margin: auto;
   display: inline-block;
   width: 100%;
@@ -3490,7 +3489,7 @@ ul.box-deportes li.channel a {
   padding: 5px;
   border-radius: 7px;
   min-height: 160px;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   margin: auto;
   display: inline-block;
   width: 100%;
@@ -3883,7 +3882,7 @@ ul.box-deportes li.channel a {
 }
 .tweet-user-name {
   display: inline-block;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 22px;
   font-size: 1.375rem;
   font-weight: 700;
@@ -3937,7 +3936,7 @@ ul.box-deportes li.channel a {
     display: table
   }
   .promo p {
-    font-family: Telefonica,Arial,sans-serif;
+    font-family: Arial,sans-serif;
     font-size: 15px;
     font-size: .9375rem;
     font-weight: 700;
@@ -3965,7 +3964,7 @@ ul.box-deportes li.channel a {
   color: #cbcbcb
 }
 .user-menu .enter {
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   text-transform: uppercase
 }
@@ -4008,7 +4007,7 @@ ul.box-deportes li.channel a {
   font-size: 13px;
   font-size: .8125rem;
   text-transform: uppercase;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700
 }
 .list-links ul {
@@ -4101,7 +4100,7 @@ ul.box-deportes li.channel a {
 .product-info .heading {
   font-size: 18px;
   font-size: 1.125rem;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase
@@ -4214,7 +4213,7 @@ ul.box-deportes li.channel a {
   line-height: 22px;
   display: block;
   padding-top: 5px;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700
 }
 .product-info .promo-fusion p.normal {
@@ -4222,12 +4221,12 @@ ul.box-deportes li.channel a {
   font-size: 16px;
   font-size: 1rem;
   padding-top: 0;
-  font-family: Telefonica,Arial,sans-serif
+  font-family: Arial,sans-serif
 }
 .product-info .ventajas-fusion {
   margin: 0 20px;
   margin-top: 7px;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   line-height: 18px;
   font-size: 19px;
   font-size: 1.1875rem;
@@ -4326,7 +4325,7 @@ ul.box-deportes li.channel a {
   .product-info .product-info-features {
     font-size: 15px;
     font-size: .9375rem;
-    font-family: Telefonica,Arial,sans-serif;
+    font-family: Arial,sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     margin: 15px 0
@@ -4407,7 +4406,7 @@ ul.box-deportes li.channel a {
   display: block;
   float: left;
   width: auto;
-  font-family: Telefonica,Arial,sans-serif
+  font-family: Arial,sans-serif
 }
 .submenu-zc-movis .pie-movis-left p {
   margin-left: 20px;
@@ -4765,7 +4764,7 @@ video {
   display: block;
   text-align: center;
   margin-top: 10px;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   color: #005a8c;
   font-size: 25px;
   font-size: 1.5625rem;
@@ -5001,7 +5000,7 @@ video {
 }
 .gallery-title {
   display: block;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   color: #fff;
   position: absolute;
@@ -5152,7 +5151,7 @@ video {
   position: absolute;
   bottom: 70px;
   left: 18px;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 26px;
   font-size: 1.625rem;
   font-weight: 700
@@ -5557,7 +5556,7 @@ video {
 .mosaic .piece .piece-content .heading {
   position: relative;
   z-index: 10;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 12px;
   font-size: .75rem
 }
@@ -5621,7 +5620,7 @@ video {
   .mosaic .piece .piece-content .heading {
     position: relative;
     z-index: 10;
-    font-family: Telefonica,Arial,sans-serif;
+    font-family: Arial,sans-serif;
     font-size: 12px;
     font-size: .75rem
   }
@@ -5656,7 +5655,7 @@ video {
   color: #fff
 }
 .modal-gallery-heading {
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 32px;
   font-size: 2rem;
   font-weight: 700;
@@ -5810,7 +5809,7 @@ video {
   font-size: 30px;
   font-size: 1.875rem;
   margin-bottom: 20px;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 400;
   position: relative;
   z-index: 999999;
@@ -5950,7 +5949,7 @@ video {
   color: #00385d;
   padding: 20px 20px 0 0;
   font-size: 17px;
-  font-family: Telefonica,Arial,sans-serif
+  font-family: Arial,sans-serif
 }
 .section-covers .botonera a.button-mini {
   margin: 10px 10px 0 0;
@@ -6432,7 +6431,7 @@ video {
 .hero-mini .especial {
   text-transform: uppercase;
   font-weight: 900;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 18px;
   font-size: 1.125rem
 }
@@ -6509,7 +6508,7 @@ video {
   bottom: -40px;
   text-transform: uppercase;
   font-weight: 900;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 18px;
   font-size: 1.125rem
 }
@@ -6532,7 +6531,7 @@ video {
   float: right;
   text-align: right;
   font-weight: 700;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 12px;
   font-size: .75rem
 }
@@ -6760,7 +6759,7 @@ video {
 .media p.big {
   font-size: 22px;
   font-size: 1.375rem;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 400
 }
 .media .h-beta {
@@ -6813,7 +6812,7 @@ body input:-internal-autofill-selected {
   left: 0;
   width: 100%;
   z-index: 999;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   color: #fff
 }
 .masthead .wrapper {
@@ -6823,7 +6822,7 @@ body input:-internal-autofill-selected {
   display: none
 }
 .masthead .category {
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
   color: #000;
@@ -6955,8 +6954,7 @@ nav.menu-ppal.distributiva a.bt-back {
   margin-right: 165px;
   font-size: 2.25rem;
   color: #499010;
-  font-family: TelefonicaThin;
-  font-weight: 100;
+    font-weight: 100;
   padding-top: 5px;
   position: relative;
   top: 4px;
@@ -6965,7 +6963,6 @@ nav.menu-ppal.distributiva a.bt-back {
 nav.menu-ppal.distributiva a.bt-back.withtext {
   font-size: 20px;
   margin-top: 13px;
-  font-family: TelefonicaLight
 }
 nav.menu-ppal.distributiva a.bt-back span {
   color: #50535a;
@@ -6988,8 +6985,7 @@ nav.menu-ppal.distributiva a.bt-back:hover span {
 nav.menu-ppal.distributiva .minisite-title {
   font-size: 2.25rem;
   color: #499010;
-  font-family: TelefonicaThin;
-  font-weight: 100;
+    font-weight: 100;
   padding-top: 5px;
   top: 11px;
   left: 4px;
@@ -7022,8 +7018,7 @@ nav.menu-ppal.distributiva ul.pills li a {
   border: 1px solid #00a9e0;
   background: 0 0;
   color: #00a9e0;
-  font-family: Telefonica;
-  margin-left: 1rem;
+    margin-left: 1rem;
   text-decoration: none;
   height: 30px;
   opacity: 1;
@@ -7194,7 +7189,7 @@ nav.menu-ppal ul li a:hover [class^=i-]:before {
   max-width: 1260px
 }
 .overlay-menu-cliente .menu-cliente {
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   transition: all .5s ease;
   background: #fff;
   position: absolute;
@@ -7214,7 +7209,7 @@ nav.menu-ppal ul li a:hover [class^=i-]:before {
 }
 .overlay-menu-cliente .menu-cliente .cabecera p {
   font-size: 1rem;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   color: #000;
   margin-top: 3px
 }
@@ -7276,7 +7271,6 @@ nav.menu-ppal ul li a:hover [class^=i-]:before {
 .overlay-menu-cliente .menu-cliente .contenido .bt-signup {
   display: block;
   margin: 11px 0 0 0;
-  font-family: TelefonicaLight
 }
 .overlay-menu-cliente .menu-cliente .contenido ul {
   margin-top: 8px;
@@ -7288,7 +7282,6 @@ nav.menu-ppal ul li a:hover [class^=i-]:before {
 .overlay-menu-cliente .menu-cliente .contenido ul li.titular {
   font-size: 1.125rem;
   padding: 1rem 0;
-  font-family: TelefonicaLight;
   color: #000;
   padding-bottom: 6px
 }
@@ -7300,8 +7293,7 @@ nav.menu-ppal ul li a:hover [class^=i-]:before {
   margin-bottom: 2px
 }
 .overlay-menu-cliente .menu-cliente .contenido ul li ul li a {
-  font-family: Telefonica;
-  padding: .9rem;
+    padding: .9rem;
   font-size: 1rem;
   display: block;
   color: #019df4;
@@ -7581,7 +7573,6 @@ body .search-form input:-moz-placeholder {
   display: block;
   font-size: 16px;
   font-size: 1rem;
-  font-family: TelefonicaLight
 }
 @media only screen and (max-width:62.49938em) {
   .primary-nav .guia-pc {
@@ -7978,8 +7969,7 @@ body .search-form input:-moz-placeholder {
   margin: 0;
   font-size: 14px;
   letter-spacing: 0;
-  font-family: Telefonica;
-  margin-right: 6px;
+    margin-right: 6px;
   padding-top: 7px;
   height: 30px
 }
@@ -8013,7 +8003,7 @@ body .search-form input:-moz-placeholder {
   left: 1rem
 }
 .menu-right li .bt-registro {
-  font-family: TelefonicaRegular,Arial,Helvetica;
+  font-family: Arial,Helvetica;
   color: #fff;
   border: 1px solid transparent;
   background-color: #5bc500;
@@ -8093,7 +8083,6 @@ body.overlay-open .menu-minisite.menu-minisite-home {
 }
 .masthead .menu-right li .overlay-header .support_menu_title {
   font-size: 1.875rem;
-  font-family: TelefonicaLight;
   font-weight: 100;
   color: #000
 }
@@ -8228,8 +8217,7 @@ body.pag-guia .masthead {
 }
 .overlay-open .menu-right li.active .minisite-title {
   font-size: 30px;
-  font-family: TelefonicaThin;
-  z-index: 99999;
+    z-index: 99999;
   position: relative;
   display: block;
   color: #000;
@@ -8238,8 +8226,7 @@ body.pag-guia .masthead {
 }
 .overlay-open .menu-right li.active .heading {
   font-size: .875rem;
-  font-family: Telefonica;
-  color: #999;
+    color: #999;
   border-bottom: .0625rem solid #ddd;
   display: block;
   z-index: 99999;
@@ -8574,8 +8561,7 @@ html.overflowhidden {
     margin-top: -21px;
     font-size: 1.5rem;
     color: #fff;
-    font-family: Telefonica;
-    font-weight: 500;
+        font-weight: 500;
     padding-top: 0;
     width: 100%;
     text-align: center;
@@ -8593,8 +8579,7 @@ html.overflowhidden {
   .masthead nav.menu-ppal.distributiva .minisite-title {
     font-size: 1.5rem;
     color: #fff;
-    font-family: Telefonica;
-    font-weight: 500;
+        font-weight: 500;
     padding-top: 0;
     text-align: center;
     opacity: 1;
@@ -9139,7 +9124,6 @@ html.overflowhidden {
   color: #fff
 }
 .submenu-mimovistar .level-1 {
-  font-family: TelefonicaLight;
   color: #00a9e0;
   font-size: 13px;
   font-size: .8125rem;
@@ -9377,7 +9361,6 @@ html.overflowhidden {
   }
 }
 .submenu.atencion-cliente {
-  font-family: TelefonicaLight
 }
 .submenu.atencion-cliente h2 {
   color: #00a9e0;
@@ -9421,7 +9404,6 @@ html.overflowhidden {
   color: #00a9e0;
   position: relative;
   text-decoration: none;
-  font-family: TelefonicaLight;
   font-size: 14px
 }
 .submenu.atencion-cliente .col-link ul li a:before {
@@ -9442,7 +9424,6 @@ html.overflowhidden {
   font-size: 18px;
   color: #50535a;
   text-decoration: none;
-  font-family: TelefonicaLight
 }
 .submenu.atencion-cliente span {
   font-size: 14px;
@@ -9477,7 +9458,7 @@ html.overflowhidden {
 }
 footer {
   color: #86888c;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   border-top: 1px solid #86888c;
   position: relative;
   z-index: 100;
@@ -9586,7 +9567,7 @@ footer .logo-footer img {
   height: 40px;
   display: table;
   width: 80%;
-  font-family: Telefonica,Arial,sans-serif
+  font-family: Arial,sans-serif
 }
 .footer-genero .menu-config img {
   max-width: 40px;
@@ -9760,7 +9741,7 @@ footer .title {
   font-size: 16px;
   font-size: 1rem;
   font-weight: 700;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   color: #000;
   line-height: 1.5em
 }
@@ -9815,7 +9796,7 @@ footer .title {
   font-size: 20px;
   font-size: 1.25rem;
   margin: 0 0 20px;
-  font-family: Telefonica,Arial,sans-serif
+  font-family: Arial,sans-serif
 }
 .ee p {
   color: #858585;
@@ -9894,7 +9875,7 @@ footer .title {
   font-size: 2.5rem;
   color: #f5e614;
   font-weight: 700;
-  font-family: Telefonica,Arial,sans-serif
+  font-family: Arial,sans-serif
 }
 .ee .ee-social {
   margin-top: 20%
@@ -10016,7 +9997,7 @@ footer .title {
   width: 50%;
   clear: none;
   text-align: left;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700
 }
 .ee .list-tabs .list-episodes a {
@@ -10201,7 +10182,7 @@ footer .title {
     background-size: 13px;
     background-position: 98% center;
     color: #fff;
-    font-family: Telefonica,Arial,sans-serif;
+    font-family: Arial,sans-serif;
     font-weight: 700;
     display: block
   }
@@ -10675,7 +10656,7 @@ footer .title {
 .guide-head h1 {
   font-size: 20px;
   font-size: 1.25rem;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   margin-bottom: 10px
 }
 .guide-head h1 span {
@@ -10899,7 +10880,7 @@ footer .title {
   border: none;
   font-size: 18px;
   font-size: 1.125rem;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   color: #fff;
   text-transform: capitalize;
@@ -10980,7 +10961,7 @@ footer .title {
   cursor: pointer;
   color: #fff;
   float: left;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   font-size: 19px;
   text-transform: uppercase;
@@ -11091,7 +11072,7 @@ input#calendar {
   padding: 5px;
   background: #00c6d6;
   color: #fff;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   width: 100px;
   height: 32px;
   line-height: 24px;
@@ -11179,7 +11160,7 @@ input#calendar {
   background-color: #00c6d6;
   color: #fff;
   font-weight: 700;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   padding: 10px 20px;
   display: inline-block;
   margin: 0 auto;
@@ -11220,7 +11201,7 @@ input#calendar {
   font-size: 1.5rem;
   padding: 15px;
   padding-bottom: 5px;
-  font-family: Telefonica,Arial,sans-serif
+  font-family: Arial,sans-serif
 }
 #ficha .desc {
   font-size: 14px;
@@ -11231,7 +11212,7 @@ input#calendar {
   padding-bottom: 5px;
   color: #333;
   font-weight: 500;
-  font-family: Telefonica,Arial,sans-serif
+  font-family: Arial,sans-serif
 }
 #ficha .desc-long {
   padding-left: 15px;
@@ -11245,7 +11226,7 @@ input#calendar {
   background-color: #5bc5f2;
   color: #fff;
   font-weight: 500;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   padding: 10px;
   margin-left: 15px;
   margin-bottom: 15px;
@@ -11372,7 +11353,6 @@ input#calendar {
   position: relative;
   padding: 15px 0;
   color: #666;
-  font-family: Telefonica
 }
 .cont-filtros ul li a.selected {
   background: #d1d1ce
@@ -11386,8 +11366,7 @@ input#calendar {
   left: 15px
 }
 .cont-filtros ul li a.buscar {
-  font-family: Telefonica;
-  background: #00abe3;
+    background: #00abe3;
   color: #fff
 }
 .cont-filtros.visible {
@@ -11447,7 +11426,7 @@ input#calendar {
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: 700;
   color: #00385d;
   background: #fff;
@@ -11497,7 +11476,7 @@ input#calendar {
   display: none;
   font-size: 13px;
   font-size: .8125rem;
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   color: #0086b9;
   font-weight: 700;
   text-transform: uppercase
@@ -11945,7 +11924,7 @@ img.mfp-img {
   cursor: auto
 }
 .mfp-title {
-  font-family: Telefonica,Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 16px;
   font-size: 1rem;
   text-align: left;
