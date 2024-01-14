@@ -1,528 +1,627 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <script>
     $(function () {
       if ($(window).width() < 1200) {
-          $('ul.links-abc').slick({
-              infinite: false,
-              variableWidth: true,
-              arrows: false,
+        $('ul.links-abc').slick({
+          infinite: false,
+          variableWidth: true,
+          arrows: false,
+          draggable: false,
+          responsive: [{
+            breakpoint: 1200,
+            settings: {
+              prevArrow: '#fle-izq-az',
+              nextArrow: '#fle-dcha-az',
+              arrows: true,
               draggable: false,
-              responsive: [{
-                  breakpoint: 1200,
-                  settings: {
-                      prevArrow: '#fle-izq-az',
-                      nextArrow: '#fle-dcha-az',
-                      arrows: true,
-                      draggable: false,
-                      slidesToScroll: 3
-                  }
-              },
-              {
-                  breakpoint: 768,
-                  settings: {
-                      arrows: false,
-                      prevArrow: null,
-                      nextArrow: null,
-                      draggable: true,
-                      slidesToScroll: 3
-                  }
-              }
-              ]
-          })
-      }
-  
-      if (typeof IScroll !== "undefined") {
-          if ($('.semana-days').length > 0 && $(window).width() < 980) {
-              var sliderDias = new IScroll('#semana', {
-                  eventPassthrough: true,
-                  scrollX: true,
-                  scrollY: false,
-                  preventDefault: false,
-                  disablePointer: true, // important to disable the pointer events that causes the issues
-                  disableTouch: false, // false if you want the slider to be usable with touch devices
-                  disableMouse: true // false if you want the slider to be usable with a mouse (desktop)
-              });
-          }
-          if ($('.canales-mov').length > 0) {
-              var myScroll = new IScroll('.canales-mov', {
-                  eventPassthrough: true,
-                  scrollX: true,
-                  scrollY: false,
-                  preventDefault: false,
-                  disablePointer: true, // important to disable the pointer events that causes the issues
-                  disableTouch: false, // false if you want the slider to be usable with touch devices
-                  disableMouse: false // false if you want the slider to be usable with a mouse (desktop)
-              });
-              myScroll.scrollToElement($('.canales-mov li.active').get(0));
-          }
-      }
-  });
-  
-  
-  
-  
-  </script>
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
-    <meta charset="UTF-8">
-    <link media="all" type="text/css" rel="stylesheet" href="https://ia601209.us.archive.org/20/items/jquerymin_202401/header.css">
-    <link media="all" type="text/css" rel="stylesheet" href="https://ia801209.us.archive.org/20/items/jquerymin_202401/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var currentDateElement = document.getElementById('currentDate');
-            var currentDate = new Date();
-            var options = { weekday: 'long', day: 'numeric', month: 'long' };
-            var formattedDate = currentDate.toLocaleDateString('es-ES', options);
-            currentDateElement.textContent = formattedDate;
-        });
-    </script>
-    <style>
-        /* Estilo para ocultar el encabezado en dispositivos móviles */
-        @media (max-width: 767px) {
-            tv {
-                display: none;
+              slidesToScroll: 3
             }
-        }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              prevArrow: null,
+              nextArrow: null,
+              draggable: true,
+              slidesToScroll: 3
+            }
+          }
+          ]
+        })
+      }
 
-        /* Estilo para mostrar el encabezado en pantallas grandes y Android TV */
-        @media (min-width: 768px) {
-            tv {
-                display: block !important;
-            }
-            mobile {
-                display: none;
-            }
-           
+      if (typeof IScroll !== "undefined") {
+        if ($('.semana-days').length > 0 && $(window).width() < 980) {
+          var sliderDias = new IScroll('#semana', {
+            eventPassthrough: true,
+            scrollX: true,
+            scrollY: false,
+            preventDefault: false,
+            passive:false,
+            disablePointer: true, // important to disable the pointer events that causes the issues
+            disableTouch: false, // false if you want the slider to be usable with touch devices
+            disableMouse: true // false if you want the slider to be usable with a mouse (desktop)
+          });
         }
-    </style>
+        if ($('.canales-mov').length > 0) {
+          var myScroll = new IScroll('.canales-mov', {
+            eventPassthrough: true,
+            scrollX: true,
+            scrollY: false,
+            preventDefault: false,
+            passive:false,
+            disablePointer: true, // important to disable the pointer events that causes the issues
+            disableTouch: false, // false if you want the slider to be usable with touch devices
+            disableMouse: false // false if you want the slider to be usable with a mouse (desktop)
+          });
+          myScroll.scrollToElement($('.canales-mov li.active').get(0));
+        }
+      }
+    });
+
+
+
+
+  </script>
+
+  <script>
+    window.onload = function()
+    // Para internet Explorer
+    {document.onselectstart = function(){return false;} 
+    // Para Firefox
+    document.onmousedown = function(){return false;}}
+    </script>
+
+    <script>
+      document.oncontextmenu = function(){return false}
+      </script>
+  <meta name="viewport"
+    content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
+  <meta charset="UTF-8">
+  <link media="all" type="text/css" rel="stylesheet"
+    href="https://ia601209.us.archive.org/20/items/jquerymin_202401/header.css">
+  <link media="all" type="text/css" rel="stylesheet"
+    href="https://ia601904.us.archive.org/32/items/main_20240113_202401/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var currentDateElement = document.getElementById('currentDate');
+      var currentDate = new Date();
+      var options = { weekday: 'long', day: 'numeric', month: 'long' };
+      var formattedDate = currentDate.toLocaleDateString('es-ES', options);
+      currentDateElement.textContent = formattedDate;
+    });
+  </script>
+  <style>
+
+ 
+    /* Estilo para ocultar el encabezado en dispositivos móviles */
+    @media (max-width: 767px) {
+      tv {
+        display: none;
+		background-color:black !important;
+
+      }
+    }
+
+    /* Estilo para mostrar el encabezado en pantallas grandes y Android TV */
+    @media (min-width: 768px) {
+      tv {
+        display: block !important;
+
+background-color:black !important;
+
+      }
+
+      mobile {
+        display: none;
+
+      }
+
+    }
+
+ 
+  </style>
+  <style>
+
+  </style>
 </head>
 <tv>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-    
-      <style>
-        section {
-          background-color: black !important;
-          display: flex !important;
-          justify-content: flex-start !important;
-          align-items: center !important;
-          height: 100vh !important;
-          margin: 0 !important;
-          overscroll-behavior-y: none !important;
-          overflow-x: auto !important;
-        }
-    
-        .menu-container {
-          width: 100%;
-          padding-right: 0;
-          padding-left: 0;
-          margin-right: 25% !important;
-    
-        }
-    
-        .menu {
-          display: flex;
-          justify-content: flex-start;
-          align-items: center;
-          margin-bottom: 100px;
-        }
-    
-        .menu-column {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-    
-        .menu-button {
-          margin-top: 10px;
-          padding: 50px 80px !important;
-          font-size: 64px !important;
-          background-color: #4285f4;
-          color: white;
-          border: none;
-          margin: 10px; 
-          border-radius: 8px;
-          cursor: pointer;
-          transition: background-color 0.3s, box-shadow 0.3s !important;
-        }
-    
-        .menu-button:hover,
-        .menu-button:focus {
-          background-color: yellow !important;
-          box-shadow: 0 0 20px rgba(255, 255, 0, 0.8) !important;
-        }
-        
-        .menu-button#btn1 {
-          background-image: url('https://i.imgur.com/VAgc1eu.png');
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-    
-        .menu-button#btn30 {
-          background-image: url('https://i.imgur.com/dMeXhsk.png');
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-    
-        .menu-button#btnmovi {
-          background-image: url('https://i.imgur.com/BzNTtbR.png');
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 100px;
-          height: 100px;
-        }
-    
-        .menu-button#btnhypida {
-          background-image: url('https://i.imgur.com/PpRxsyR.png');
-          background-size: 65%;
-          background-position: center;
-          background-repeat: no-repeat;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          position: relative;
-        }
-    
-        .menu-button#btnhypida img {
-          width: 28px;
-          height: 28px;
-          position: absolute;
-          top: 0;
-          right: 0;
-        }
-    
-        .menu-button#btnhypi {
-          background-image: url('https://i.imgur.com/PpRxsyR.png');
-          background-size: 65%;
-          background-position: center;
-          background-repeat: no-repeat;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          position: relative;
-        }
-    
-        .menu-button#btnhypi p {
-          position: absolute;
-          font-size: small;
-          top: 0;
-          right: 0;
-        }
-    
-        .menu-button#btnhypi2 {
-          background-image: url('https://i.imgur.com/7HkuPZX.png');
-          background-size: 85%;
-          background-position: center;
-          background-repeat: no-repeat;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-    
-        .menu-button#btn2 {
-          background-image: url('https://i.imgur.com/ddaIFFG.png');
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-    
-        .menu-button#btn3 {
-          background-image: url('https://i.imgur.com/HML9vo4.png');
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-    
-        .menu-button#btn4 {
-          background-image: url('https://i.imgur.com/7IzZYs8.png');
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-    
-        .menu-button#btn5 {
-          background-image: url('https://i.imgur.com/hncPMFS.png');
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-    
-        .menu-button#btneuro2 {
-          background-image: url('https://i.imgur.com/v7VyrPw.png');
-          background-size: contain;
-          background-position: center;
-          background-repeat: no-repeat;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-    
-        .menu-button#btn9 {
-          background-image: url('https://i.imgur.com/eMpR7AJ.png');
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-    
-        .menu-button#tv {
-          background-image: url('https://i.imgur.com/vObd0rr.png');
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-    
-        .menu-column-tv {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin: 10px;
-        }
-      </style>
-    
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    </head>
-    <section>
-      <div class="container menu-container">
-        <div class="row mt-5">
-          <div class="col-md-12">
-            <div class="menu d-flex align-items-center">
-              <div class="menu-column-tv">
-                <button class="btn btn-primary btn-lg menu-button" id="tv"></button>
-              </div>
-              <div class="menu-column">
-                <button class="btn btn-primary btn-lg menu-button" id="btn1"></button>
-                <button class="btn btn-primary btn-lg menu-button" id="btn30"></button>
-                <button class="btn btn-primary btn-lg menu-button" id="btnmovi"></button>
-              </div>
-              <div class="menu-column">
-                <button class="btn btn-primary btn-lg menu-button" id="btnhypida">
-                  <img src="https://i.imgur.com/Mk62e5h.png" alt="">
-                </button>
-                <button class="btn btn-primary btn-lg menu-button" id="btnhypi">
-                  <p>Amazon</p>
-                </button>
-                <button class="btn btn-primary btn-lg menu-button" id="btnhypi2"></button>
-              </div>
-              <div class="menu-column">
-                <button class="btn btn-primary btn-lg menu-button" id="btn2"></button>
-                <button class="btn btn-primary btn-lg menu-button" id="btn3"></button>
-                <button class="btn btn-primary btn-lg menu-button" id="btn4"></button>
-              </div>
-              <div class="menu-column">
-                <button class="btn btn-primary btn-lg menu-button" id="btn5"></button>
-                <button class="btn btn-primary btn-lg menu-button" id="btneuro2"></button>
-              </div>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+
+    <style>
+
+
+
+      section {
+        background-color: black !important;
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        height: 100vh !important;
+        margin: 0 !important;
+        overscroll-behavior-y: none !important;
+        overflow-x: auto !important;
+      }
+
+      .menu-container {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 25% !important;
+
+      }
+
+      .menu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 100px;
+      }
+
+      .menu-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .menu-button {
+        margin-top: 10px;
+        padding: 50px 80px !important;
+        font-size: 64px !important;
+        background-color: #4285f4;
+        color: white;
+        border: none;
+        margin: 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s, box-shadow 0.3s !important;
+      }
+
+      .menu-button:hover,
+      .menu-button:focus {
+        background-color: yellow !important;
+        box-shadow: 0 0 20px rgba(255, 255, 0, 0.8) !important;
+      }
+
+      .menu-button#btn1 {
+        background-image: url('https://i.imgur.com/VAgc1eu.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .menu-button#btn30 {
+        background-image: url('https://i.imgur.com/dMeXhsk.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .menu-button#btnmovi {
+        background-image: url('https://i.imgur.com/BzNTtbR.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+      }
+
+      .menu-button#btnhypida {
+        background-image: url('https://i.imgur.com/PpRxsyR.png');
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+
+      .menu-button#btnhypida img {
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+      .menu-button#btnhypi {
+        background-image: url('https://i.imgur.com/PpRxsyR.png');
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+
+      .menu-button#btnhypi p {
+        position: absolute;
+        font-size: small;
+        top: 0;
+        right: 0;
+      }
+
+      .menu-button#btnhypi2 {
+        background-image: url('https://i.imgur.com/7HkuPZX.png');
+        background-size: 85%;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .menu-button#btn2 {
+        background-image: url('https://i.imgur.com/ddaIFFG.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .menu-button#btn3 {
+        background-image: url('https://i.imgur.com/HML9vo4.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .menu-button#btn4 {
+        background-image: url('https://i.imgur.com/7IzZYs8.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .menu-button#btn5 {
+        background-image: url('https://i.imgur.com/hncPMFS.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .menu-button#btneuro2 {
+        background-image: url('https://i.imgur.com/v7VyrPw.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .menu-button#btn9 {
+        background-image: url('https://i.imgur.com/eMpR7AJ.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .menu-button#tv {
+        background-image: url('https://i.imgur.com/vObd0rr.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .menu-column-tv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+      }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <section>
+    <div class="container menu-container">
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="menu d-flex align-items-center">
+            <div class="menu-column-tv">
+              <button class="btn btn-primary btn-lg menu-button" id="tv"></button>
+            </div>
+            <div class="menu-column">
+              <button class="btn btn-primary btn-lg menu-button" id="btn1"></button>
+              <button class="btn btn-primary btn-lg menu-button" id="btn30"></button>
+              <button class="btn btn-primary btn-lg menu-button" id="btnmovi"></button>
+            </div>
+            <div class="menu-column">
+              <button class="btn btn-primary btn-lg menu-button" id="btnhypida">
+                <img src="https://i.imgur.com/Mk62e5h.png" alt="">
+              </button>
+              <button class="btn btn-primary btn-lg menu-button" id="btnhypi">
+                <p>Amazon</p>
+              </button>
+              <button class="btn btn-primary btn-lg menu-button" id="btnhypi2"></button>
+            </div>
+            <div class="menu-column">
+              <button class="btn btn-primary btn-lg menu-button" id="btn2"></button>
+              <button class="btn btn-primary btn-lg menu-button" id="btn3"></button>
+              <button class="btn btn-primary btn-lg menu-button" id="btn4"></button>
+            </div>
+            <div class="menu-column">
+              <button class="btn btn-primary btn-lg menu-button" id="btn5"></button>
+              <button class="btn btn-primary btn-lg menu-button" id="btneuro2"></button>
             </div>
           </div>
         </div>
       </div>
-    
-      <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          const btn1 = document.getElementById('btn1');
-          btn1.addEventListener('click', function() {
-            window.location.href = 'go:S123';
-          });
-        });
-    
-        document.addEventListener('DOMContentLoaded', function() {
-          const btn30 = document.getElementById('btn30');
-          btn30.addEventListener('click', function() {
-            window.location.href = 'go:S1883';
-          });
-        });
-    
-        document.addEventListener('DOMContentLoaded', function() {
-          const btnmovi = document.getElementById('btnmovi');
-          btnmovi.addEventListener('click', function() {
-            window.location.href = 'go:S743';
-          });
-        });
-    
-        document.addEventListener('DOMContentLoaded', function() {
-          const btnhypida = document.getElementById('btnhypida');
-          btnhypida.addEventListener('click', function() {
-            window.location.href = 'go:S748';
-          });
-        });
-    
-        document.addEventListener('DOMContentLoaded', function() {
-          const btnhypi = document.getElementById('btnhypi');
-          btnhypi.addEventListener('click', function() {
-            window.location.href = 'go:S749';
-          });
-        });
-    
-        document.addEventListener('DOMContentLoaded', function() {
-          const btnhypi2 = document.getElementById('btnhypi2');
-          btnhypi2.addEventListener('click', function() {
-            window.location.href = 'go:S750';
-          });
-        });
-    
-        document.addEventListener('DOMContentLoaded', function() {
-          const btn2 = document.getElementById('btn2');
-          btn2.addEventListener('click', function() {
-            window.location.href = 'go:S124';
-          });
-        });
-    
-        document.addEventListener('DOMContentLoaded', function() {
-          const btn3 = document.getElementById('btn3');
-          btn3.addEventListener('click', function() {
-            window.location.href = 'go:S125';
-          });
-        });
-    
-        document.addEventListener('DOMContentLoaded', function() {
-          const btn4 = document.getElementById('btn4');
-          btn4.addEventListener('click', function() {
-            window.location.href = 'go:S126';
-          });
-        });
-    
-        document.addEventListener('DOMContentLoaded', function() {
-          const btn5 = document.getElementById('btn5');
-          btn5.addEventListener('click', function() {
-            window.location.href = 'go:S127';
-          });
-        });
-    
-        document.addEventListener('DOMContentLoaded', function() {
-          const btneuro2 = document.getElementById('btneuro2');
-          btneuro2.addEventListener('click', function() {
-            window.location.href = 'go:S177';
-          });
-        });
-    
-        document.addEventListener('DOMContentLoaded', function() {
-          const tv = document.getElementById('tv');
-          tv.addEventListener('click', function() {
-            window.location.href = 'go:S128';
-          });
-        });
-      </script>
-    </section>
-    </html>
-    
+    </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Define una función que asigna el evento de clic a un botón
+    function asignarEventoClic(id, destino) {
+      const btn = document.getElementById(id);
+      btn.addEventListener('click', function () {
+        window.location.href = 'go:' + destino;
+      });
+    }
+
+    // Asigna eventos a cada botón utilizando la función
+    asignarEventoClic('btn1', 'S123');
+    asignarEventoClic('btn30', 'S1883');
+    asignarEventoClic('btnmovi', 'S743');
+    asignarEventoClic('btnhypida', 'S748');
+    asignarEventoClic('btnhypi', 'S749');
+    asignarEventoClic('btnhypi2', 'S750');
+    asignarEventoClic('btn2', 'S124');
+    asignarEventoClic('btn3', 'S125');
+    asignarEventoClic('btn4', 'S126');
+    asignarEventoClic('btn5', 'S127');
+    asignarEventoClic('btneuro2', 'S177');
+    asignarEventoClic('tv', 'S128');
+  });
+</script>
+
+  </section>
+
+  </html>
+
 </tv>
 
 <mobile>
-<body class="pag-guia mod-guia pag-guia-movil" data-telemetry-meta="step:guiamovil">
+
+  <body class="pag-guia mod-guia pag-guia-movil" data-telemetry-meta="step:guiamovil">
     <header class="headerfur">
-        <div class="wrapper">
-            <a class="headerfur__logo" href="">
-                <img  width="44" height="45" viewBox="0 0 102 45"src="https://i.imgur.com/oaP2MAb.png" >       
+      <div class="wrapper">
+        <a class="headerfur__logo" href="">
+          <img width="44" height="45" viewBox="0 0 102 45" src="https://i.imgur.com/oaP2MAb.png">
 
-            </a>
-            <div class="headerfur__containerMenu js-containerMenu">
-                <ul  class="headerfur__menu selected" >
-                    <li >
-                        <a  > Fase Pruebas</a>
-                    </li>
-                    <li >
-                      <a   > Fase Pruebas</a>
-                    </li>
-                  
-                </ul>
-            </div>
-        </div>
-    </header>
-
-    <main>
-        <div class="main-guide j-guia-movil">
-            <div class="cont-filtros j_cont-filtros"></div>
-            <div id="fondo_semana_bot">
-                <div class="guide-head">
-                    <div class="guide-head-center">
-                        <div class="heading">
-                            <h1><strong>Bienvenido. <span id="currentDate"></span></strong></h1>
-                        </div>
-                    </div>
-                </div>
-                <div id="semana_bot">
-                    <div id="semana">
-                        <div class="semana-days">
-                            <ul>
-                                <li class="mobile">
-                                    <span class="level-1 activo">TDT</span>
-                                </li>
-                                <li class="mobile">
-                                    <a class="level-1" href="">DAZN</a>
-                                </li>
-                                <li class="mobile">
-                                    <a class="level-1" href="">M+</a>
-                                </li><br>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="canales-mov">
-                <ul id="lista_canales">
-                    <li  class="active" >
-                        <a href="">
-                            <div class="canalnumber">
-                                <a href="go:S430"><img src="https://i.imgur.com/DmYN5Yh.png" title="LA 1"></a>
-                            </div>
-                        </a>
-                    </li>
-                    <li >
-                        <a href="">
-                            <div class="canalnumber">
-                                <a href="go:S40"> <img src="https://i.imgur.com/KWcjb1g.png" title="LA 2"></a>
-                            </div>
-                        </a>
-                    </li>
-                    <!-- Otros elementos de la lista de canales -->
-                </ul>
-            </div><br>
+        </a>
+        <div class="headerfur__containerMenu js-containerMenu">
+          <ul class="headerfur__menu selected">
           
 
-        <div id="container_wrapper">
-            <div id="wrapper" class="mainWrapper">
-                <div id="parrilla">
-                    <div class="container_fila"></div>
-                    <div id="tplProgramas" class="template"></div>
-                </div>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Obtén el enlace DAZN, el enlace TDT y el contenedor de la lista de canales
+        var daznLink = document.querySelector('.mobile a.level-1[href=""]');
+        var tdtLink = document.querySelector('.mobile span.level-1.activo');
+        var mplusLink = document.querySelector('.mobile a.level-3[href=""]');
+        var listaCanales = document.getElementById('lista_canales');
+        var contenidoOriginal = listaCanales.innerHTML;
+    
+        // Ruta al archivo JSON
+        var jsonURL = "https://raw.githubusercontent.com/personalaccount54/vinewine/main/pay.json";
+    
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            var data = JSON.parse(this.responseText);
+    
+            // Extraer canales HTML del JSON y construir el nuevoContenidoHTML
+            var nuevoContenidoHTML = construirContenido(data.canalesHTML);
+    
+            // Extraer canales MPlus del JSON y construir el nuevoContenidoMPlus
+            var nuevoContenidoMPlus = construirContenido(data.canalesMPlus);
+    
+            // Agrega un evento de clic al enlace DAZN
+            daznLink.addEventListener('click', function (event) {
+              // Evita el comportamiento predeterminado del enlace
+              event.preventDefault();
+    
+              // Limpia el contenido actual de la lista de canales
+              listaCanales.innerHTML = nuevoContenidoHTML;
+    
+              // Actualiza la URL y atributos del iframe
+              updateIframeURL('https://widgets.futbolenlatv.com/partidos/competition/la-liga?color=4285f4&culture=es-ES', true);
+            });
+    
+            // Agrega un evento de clic al enlace M+
+            mplusLink.addEventListener('click', function (event) {
+              // Evita el comportamiento predeterminado del enlace
+              event.preventDefault();
+    
+              // Limpia el contenido actual de la lista de canales y agrega el nuevo contenido de M+
+              listaCanales.innerHTML = nuevoContenidoMPlus;
+    
+              // Actualiza la URL y atributos del iframe
+              updateIframeURL('https://widgets.futbolenlatv.com/partidos/competition/la-liga?color=4285f4&culture=es-ES', true);
+            });
+    
+            // Agrega un evento de clic al enlace TDT
+            tdtLink.addEventListener('click', function (event) {
+              // Restaura el contenido original
+              listaCanales.innerHTML = contenidoOriginal;
+    
+              // Actualiza la URL y atributos del iframe
+              updateIframeURL('', false);
+            });
+    
+            // Función para actualizar la URL y atributos del iframe
+            function updateIframeURL(url, allowScrolling) {
+              var mainframe = document.querySelector('#mainframe iframe');
+              mainframe.src = url;
+    
+              mainframe.setAttribute('frameborder', '0');
+              mainframe.setAttribute('marginwidth', '0');
+              mainframe.setAttribute('marginheight', '0');
+            }
+          }
+        };
+    
+        // Hacer la solicitud para cargar el archivo JSON
+        xhr.open("GET", jsonURL, true);
+        xhr.send();
+    
+        function construirContenido(canales) {
+          var contenido = "";
+          canales.forEach(function (canal) {
+            contenido += `
+              <li class="">
+                <a href="">
+                  <div class="canalnumber">
+                    <a href="${canal.url}"><img src="${canal.image}" width="300px" height="300px"></a>
+                  </div>
+                </a>
+              </li>
+            `;
+          });
+          return contenido;
+        }
+      });
+    </script>
+    
+    
+    
+    
+<script>
+  // Cifrar la URL en una variable llamada $tdt
+  var $tdt = "https://raw.githubusercontent.com/personalaccount54/vinewine/main/1.json";
+
+  // Hacer una solicitud HTTP para cargar el archivo JSON
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+          // Parsear el JSON
+          var data = JSON.parse(this.responseText);
+          
+          // Obtener la referencia a la lista de canales
+          var listaCanales = document.getElementById("lista_canales");
+
+          // Iterar sobre los canales y agregarlos a la lista
+          data.canales.forEach(function(canal) {
+              var li = document.createElement("li");
+              var a = document.createElement("a");
+              a.href = canal.url;
+
+              var divCanalNumber = document.createElement("div");
+              divCanalNumber.className = "canalnumber";
+
+              var aImage = document.createElement("a");
+              aImage.href = canal.url;
+
+              var img = document.createElement("img");
+              img.src = canal.image;
+
+              aImage.appendChild(img);
+              divCanalNumber.appendChild(aImage);
+              a.appendChild(divCanalNumber);
+              li.appendChild(a);
+              listaCanales.appendChild(li);
+          });
+      }
+  };
+
+  // Ruta al archivo JSON usando la variable cifrada
+  xhr.open("GET", $tdt, true);
+  xhr.send();
+</script>
+
+    
+    
+    <main>
+      <div class="main-guide j-guia-movil">
+        <div class="cont-filtros j_cont-filtros"></div>
+        <div id="fondo_semana_bot">
+          <div class="guide-head">
+            <div class="guide-head-center">
+              <div class="heading">
+                <h1><strong>Bienvenido. <span id="currentDate"></span></strong></h1>
+              </div>
             </div>
+          </div>
+          <div id="semana_bot">
+            <div id="semana">
+              <div class="semana-days">
+                <ul>
+                  <li class="mobile">
+                    <span class="level-1 activo">TDT</span>
+                  </li>
+                  <li class="mobile">
+                    <a class="level-1" href="">DAZN</a>
+                  </li>
+                  <li class="mobile">
+                    <a class="level-3" href="">M+</a>
+                  </li><br>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="canales-mov">
+          <ul id="lista_canales">
+        
+          </ul>
+        </div><br>
+
+
+        <div id="container_wrapper">
+          <div id="wrapper" class="mainWrapper">
+            <div id="parrilla">
+              <div class="container_fila"></div>
+              <div id="mainframe">
+              </div>
+              
+            </div>
+          </div>
         </div>
     </main>
 
@@ -532,7 +631,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.min.js"></script>
     <script passive="false" src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.js"></script>
-</body>
+  </body>
 </mobile>
 
 </html>
