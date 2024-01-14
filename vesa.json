@@ -1,0 +1,68 @@
+{
+  "canalesHTML": [
+    {
+      "url": "go:S128",
+      "image": "https://i.imgur.com/vObd0rr.png",
+      "id": "tv"
+    },
+    {
+      "url": "go:S123",
+      "image": "https://i.imgur.com/yzcvRbi.png",
+      "id": "btn1"
+    },
+    {
+      "url": "go:S1883",
+      "image": "https://i.imgur.com/5xgqMEH.png",
+      "id": "btn30"
+    },
+    {
+      "url": "go:S125",
+      "image": "https://i.imgur.com/uJXCv85.png",
+      "id": "btn3"
+    },
+    {
+      "url": "go:S748",
+      "image": "https://i.imgur.com/wiURRjI.png",
+      "id": "btnhypida"
+    },
+    {
+      "url": "go:S124",
+      "image": "https://i.imgur.com/ObHTrhY.png",
+      "id": "btn2"
+    },
+    {
+      "url": "go:S126",
+      "image": "https://i.imgur.com/5jDIX87.png",
+      "id": "btn4"
+    },
+    {
+      "url": "go:S127",
+      "image": "https://i.imgur.com/w6tzmc4.png",
+      "id": "btn5"
+    },
+    {
+      "url": "go:S177",
+      "image": "https://i.imgur.com/1Mo3yuH.png",
+      "id": "btneuro2"
+    }
+
+  
+  ],
+  "canalesMPlus": [
+    {
+      "url": "go:S743",
+      "image": "https://i.imgur.com/bVmDC4N.png",
+      "id": "btnmovi"
+    },
+    {
+      "url": "go:S749",
+      "image": "https://i.imgur.com/wiURRjI.png",
+      "id": "btnhypi"
+    },
+    {
+      "url": "go:S750",
+      "image": "https://i.imgur.com/O2kK0dO.png",
+      "id": "btnhypi2"
+    }
+  ]
+}
